@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>LPSE - Pendaftaran</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=RocknRoll+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .background-form input {
+            border: 2px solid rgba(0, 125, 255, 0.37);
+            border-radius: 40px;
+        }
+
+        input {
+            caret-color: cornflowerblue;
+        }
+
+        input[type=text] {
+            outline: none;
+            padding: 10px;
+        }
+
+        input[type=password] {
+            outline: none;
+            padding: 10px;
+        }
+
+        .background-form input:focus {
+            box-shadow: 0 0 8px 0 dodgerblue;
+        }
+
+        label {
+            font-family: 'RocknRoll One', sans-serif;
+            font-size: 14px;
+            font-style: bold;
+            color: rgba(0, 125, 255, 0.67);
+        }
+
+        .login-form h5 {
+            font-style: bold;
+            text-transform: uppercase;
+            color: rgba(0, 125, 255, 0.67);
+            font-family: 'Oswald', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/dca5fddf5a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar" class="active">
+            <div class="custom-menu">
+                <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                    <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle Menu</span>
+                </button>
+            </div>
+            <div class="p-4">
+                <h1><a href="index.html" class="logo">LPSE</a></h1>
+                <ul class="list-unstyled components mb-5">
+                    <li>
+                        <a href="index.html"><span class="fa fa-home mr-3"></span> Halaman Utama</a>
+                    </li>
+                    <li>
+                        <a href="berita.html"><span class="fa fa-clipboard-list mr-3"></span> Berita Pengadaan</a>
+                    </li>
+                    <li>
+                        <a href="regulasi.html"><span class="fa fa-bullhorn mr-3"></span> Regulasi</a>
+                    </li>
+                    <li>
+                        <a href="pendaftaran.html"><span class="fa fa-id-card mr-3"></span> Pendaftaran</a>
+                    </li>
+                    <li class="active">
+                        <a href="login.html"><span class="fa fa-sign-in-alt mr-3"></span> Login Anggota</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </nav>
+
+
+        <div id="content" class="p-4 my-auto mx-auto" style="margin-top: 100px!important;">
+            <!-- Section 1  -->
+            <div class="container">
+                <div class="login-form">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="img/tunas.png" alt="" style="height: 166px; width: 376px;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <hr>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-center">Login Here!</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 align-item-center mx-auto">
+                            <div class="background-form" style="background-color: ;">
+                                <form action="index.html">
+                                    <div class="form-group">
+                                        <div class="col-sm-8 rounded mx-auto">
+                                            <label for="staticEmail">Username</label>
+                                            <input type="text" class="form-control-plaintext" id="staticEmail">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-8 rounded-pill mx-auto">
+                                            <label for="inputPassword">Password</label>
+                                            <input type="password" class="form-control-plaintext" id="inputPassword">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-8 rounded-pill mx-auto">
+                                            <button class="btn btn-primary">Login</button>
+                                            <button class="btn btn-danger">Sign
+                                                Up</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End Section 1  -->
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
