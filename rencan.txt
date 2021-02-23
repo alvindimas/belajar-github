@@ -1,0 +1,6 @@
+RENCANA KEDEPAN
+
+- JSON API
+- NODE JS
+- VUE JS (penambahan Form pada yoswindran apps)
+- Laravel Yoswindran
